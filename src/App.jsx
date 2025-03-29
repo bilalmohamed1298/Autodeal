@@ -125,16 +125,6 @@ function App() {
                 element={<BlogListingDetailsPage1 />}
               />
               <Route path="about-us" element={<AboutUsPage />} />
-              <Route path="faq" element={<FaqPage />} />
-              <Route path="pricing" element={<PricingPage />} />
-              <Route path="compare" element={<ComparePage />} />
-              <Route path="dealer-listing" element={<DealerListingPage />} />
-              <Route path="dealer-detail/:id" element={<DealerDetailPage />} />
-              <Route path="sale-agents" element={<SaleAgentsPage />} />
-              <Route
-                path="sale-agents-detail/:id"
-                element={<SaleAgentDetailsPage />}
-              />
               <Route path="dashboard" element={<DashboardPage />} />
               <Route path="my-listing" element={<MyListingPage />} />
               <Route path="my-favorite" element={<MyFavoritePage />} />
