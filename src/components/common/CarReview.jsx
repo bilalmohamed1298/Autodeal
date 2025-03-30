@@ -32,7 +32,7 @@ export default function CarReview() {
                       <img
                         className="lazyload"
                         alt={'mentainance'}
-                        src={'/public/assets/images/section/car-maintenance.jpg'}
+                        src={'/assets/images/section/car-maintenance.jpg'}
                         width={'100%'}
                         height={'100%'}
                       />
