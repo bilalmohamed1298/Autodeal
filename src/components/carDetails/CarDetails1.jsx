@@ -125,17 +125,6 @@ export default function CarDetails1({ carItem }) {
                         />
                       </div>
                       <div className="listing-line" />
-                      <div
-                        className="listing-reviews flat-property-detail"
-                        id="scrollspyHeading5"
-                      >
-                        <div className="box-title">
-                          <h2 className="title-ct">
-                            Car User Reviews &amp; Rating
-                          </h2>
-                        </div>
-                        <CarReview />
-                      </div>
                     </div>
                   </div>
                 </div>

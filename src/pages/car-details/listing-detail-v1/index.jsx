@@ -32,7 +32,7 @@ export default function BlogListingDetailsPage1() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </section>
       <CarDetails1 carItem={carItem} />
