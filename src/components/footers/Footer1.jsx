@@ -391,7 +391,7 @@ export default function Footer1() {
             <div className="col-lg-8 col-md-12">
               <div className="footer-bottom-right flex-six flex-wrap">
                 <div className="title-bottom center">
-                  © 2024 Auto Deal. All rights reserved
+                  © 2024 Sayarti. All rights reserved
                 </div>
                 <div className="icon-social box-3 text-color-1">
                   <a href="#">

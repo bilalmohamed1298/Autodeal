@@ -21,7 +21,7 @@ import Categories from "@/components/common/Categories";
 import CarBrands2 from "@/components/common/CarBrands2";
 import Features2 from "@/components/homes/home-2/Features2";
 const metadata = {
-  title: "Auto Deal",
+  title: "Sayarti",
   description: "AutoDeal - Car Dealer, Rental & Listing Reactjs Template",
 };
 export default function HomePage9() {
