@@ -28,7 +28,7 @@ export default function Cars({ parentClass = "tf-section" }) {
                 Find your best deal
               </h2>
               <Link
-                to={`/listing-grid2`}
+                to={`/listing-car`}
                 className="tf-btn-arrow wow fadeInUpSmall"
                 data-wow-delay="0.2s"
                 data-wow-duration="1000ms"

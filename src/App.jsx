@@ -118,13 +118,55 @@ function App() {
           <Routes>
             <Route path="/">
               <Route index element={<HomePage9 />} />
+              <Route path="home02" element={<HomePage2 />} />
+              <Route path="home03" element={<HomePage3 />} />
+              <Route path="home04" element={<HomePage4 />} />
+              <Route path="home05" element={<HomePage5 />} />
+              <Route path="home06" element={<HomePage6 />} />
+              <Route path="home07" element={<HomePage7 />} />
+              <Route path="home08" element={<HomePage8 />} />
               <Route path="home" element={<HomePage9 />} />
+              <Route path="home10" element={<HomePage10 />} />
+              <Route path="listing-list" element={<ListingListPage />} />
+              <Route path="listing-grid" element={<ListingGridPage />} />
               <Route path="listing-car" element={<ListingGridPage2 />} />
+              <Route path="listing-grid-map" element={<ListingGridMapPage />} />
+              <Route path="listing-list-map" element={<ListingListMapPage />} />
               <Route
                 path="listing-detail-v1/:id"
                 element={<BlogListingDetailsPage1 />}
               />
+              <Route
+                path="listing-detail-v2/:id"
+                element={<BlogListingDetailsPage2 />}
+              />
+              <Route
+                path="listing-detail-v3/:id"
+                element={<BlogListingDetailsPage3 />}
+              />
+              <Route
+                path="listing-detail-v4/:id"
+                element={<BlogListingDetailsPage4 />}
+              />
+              <Route
+                path="listing-detail-v5/:id"
+                element={<BlogListingDetailsPage5 />}
+              />
               <Route path="about-us" element={<AboutUsPage />} />
+              <Route path="faq" element={<FaqPage />} />
+              <Route path="pricing" element={<PricingPage />} />
+              <Route path="compare" element={<ComparePage />} />
+              <Route path="dealer-listing" element={<DealerListingPage />} />
+              <Route path="dealer-detail/:id" element={<DealerDetailPage />} />
+              <Route path="sale-agents" element={<SaleAgentsPage />} />
+              <Route
+                path="sale-agents-detail/:id"
+                element={<SaleAgentDetailsPage />}
+              />
+              <Route path="blog" element={<BlogPage />} />
+              <Route path="blog-grid" element={<BlogGridPage />} />
+              <Route path="blog-detail/:id" element={<BlogDetailsPage />} />
+
               <Route path="dashboard" element={<DashboardPage />} />
               <Route path="my-listing" element={<MyListingPage />} />
               <Route path="my-favorite" element={<MyFavoritePage />} />

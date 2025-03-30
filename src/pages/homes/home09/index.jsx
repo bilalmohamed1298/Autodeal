@@ -35,6 +35,8 @@ export default function HomePage9() {
       <Categories2 />
       <div className="mt-5 pt-5"></div>
       <Cta />
+      <CarReview />
+      <div className="mt-5 pt-5"></div>
       <Cars parentClass="tf-section3" />
       <Features />
       <div className="mt-5 pt-5"></div>
