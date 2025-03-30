@@ -7,7 +7,7 @@ export const homepages = [
   { href: "/home06", text: "Home Page 06" },
   { href: "/home07", text: "Home Page 07" },
   { href: "/home08", text: "Home Page 08" },
-  { href: "/home09", text: "Home Page 09" },
+  { href: "/home", text: "Home Page 09" },
   { href: "/home10", text: "Home Page 10" },
 ];
 
@@ -22,7 +22,7 @@ export const listingPages = [
     title: "Listing grid",
     links: [
       { href: "/listing-grid", text: "Listing grid V1" },
-      { href: "/listing-grid2", text: "Listing grid V2" },
+      { href: "/listing-car", text: "Listing grid V2" },
     ],
   },
   {
