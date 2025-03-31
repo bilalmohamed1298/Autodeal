@@ -37,7 +37,7 @@ export default function CarReview() {
                         height={'100%'}
                       />
                     </div>
-                    <div className="content">
+                    <div className="content d-flex justify-content-between align-items-center">
                       <div className="heading">
                         <h1 className="text-color-1">Maintenance Services</h1>
                         <p className="text-color-1 font fw-4">
@@ -48,6 +48,9 @@ export default function CarReview() {
                             <span>Learn More</span>
                           </a>
                         </div>
+                      </div>
+                      <div>
+                      <h1 className="text-color-1 position-relative mb-5" style={{fontSize:'150px'}}>7/24</h1>
                       </div>
                     </div>
                   </div>

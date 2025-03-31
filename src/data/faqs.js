@@ -1,26 +1,26 @@
 export const toggleItems = [
   {
-    title: "What is AutoDecar.com?",
+    title: "What is Sayarti.com?",
     content:
       "Once your account is set up and you've familiarized yourself with the platform, you are ready to start using our services. Whether it's accessing specific features, making transactions, or utilizing our tools, you'll find everything you need at your fingertips.",
   },
   {
-    title: "How do I access AutoDecar.com?",
+    title: "How do I access Sayarti.com?",
     content:
       "Once your account is set up and you've familiarized yourself with the platform, you are ready to start using our services. Whether it's accessing specific features, making transactions, or utilizing our tools, you'll find everything you need at your fingertips.",
   },
   {
-    title: "How is AutoDecar content organized?",
+    title: "How is Sayarti content organized?",
     content:
       "Once your account is set up and you've familiarized yourself with the platform, you are ready to start using our services. Whether it's accessing specific features, making transactions, or utilizing our tools, you'll find everything you need at your fingertips.",
   },
   {
-    title: "What kind of topics can be found on AutoDecar.com?",
+    title: "What kind of topics can be found on Sayarti.com?",
     content:
       "Once your account is set up and you've familiarized yourself with the platform, you are ready to start using our services. Whether it's accessing specific features, making transactions, or utilizing our tools, you'll find everything you need at your fingertips.",
   },
   {
-    title: "How frequently is AutoDecar updated?",
+    title: "How frequently is Sayarti updated?",
     content:
       "Once your account is set up and you've familiarized yourself with the platform, you are ready to start using our services. Whether it's accessing specific features, making transactions, or utilizing our tools, you'll find everything you need at your fingertips.",
   },

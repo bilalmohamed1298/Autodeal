@@ -38,17 +38,16 @@ export default function Cta() {
                   </svg>
                 </div>
                 <h3>
-                  <a href="#">Are you looking for a car?</a>
+                  <a href="#">Installment section for business owners</a>
                 </h3>
               </div>
               <div className="content">
                 <p>
-                  Save time and effort as you no longer need to visit multiple
-                  stores to find the right car.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </p>
                 <div className="meta style">
                   <a href="#" className="sc-button btn-svg btn-55">
-                    <span>Find cars</span>
+                    <span>Learn More</span>
                     <i className="icon-autodeal-search" />
                   </a>
                 </div>
@@ -93,17 +92,16 @@ export default function Cta() {
                   </svg>
                 </div>
                 <h3>
-                  <a href="#">Do you want to sell a car?</a>
+                  <a href="#">Employee Installment Department</a>
                 </h3>
               </div>
               <div className="content">
                 <p>
-                  Find your perfect car match and sell your car quickly with our
-                  user-friendly online service.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </p>
                 <div className="meta style">
                   <a href="#" className="sc-button btn-svg btn-55">
-                    <span>Sell a car</span>
+                    <span>Learn More</span>
                     <i className="icon-autodeal-next" />
                   </a>
                 </div>

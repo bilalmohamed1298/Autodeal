@@ -16,7 +16,14 @@ export default function Header2() {
                 <div className="logo-box flex">
                   <div className="logo">
                     <Link to={`/`}>
-                    <h1 className="text-dark ps-0">LOGO</h1>
+                      <img
+                        className="lazyload"
+                        data-src="/assets/images/logo/logo@2x.png"
+                        alt=""
+                        width={225}
+                        height={40}
+                        src="/assets/images/logo/logo@2x.png"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -129,8 +136,15 @@ export default function Header2() {
         />
         <nav className="menu-box">
           <div className="nav-logo">
-            <Link to={`/`}>
-            <h1 className="text-dark">LOGO</h1>
+          <Link to={`/`}>
+              <img
+                className="lazyload"
+                data-src="/assets/images/logo/logo@2x.png"
+                alt=""
+                width={197}
+                height={48}
+                src="/assets/images/logo/logo@2x.png"
+              />
             </Link>
           </div>
           <div className="bottom-canvas">

@@ -24,7 +24,6 @@ export default function AboutUsPage() {
       <Banner />
       <div className="mt-5 pt-5"></div>
       <Features />
-      <Agents parentClass="tf-section3" />
       <Brands />
       <Testimonials />
       <RecomandedCars />

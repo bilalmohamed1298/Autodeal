@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import { Link } from "react-router-dom";
 
 import MobileNav from "./MobileNav";
+import LanguageDropdown from "../homes/home-9/LanguageDropdown";
 export default function Header1() {
   return (
     <header className="main-header style2">
@@ -15,8 +16,23 @@ export default function Header1() {
                 {/* Logo Box */}
                 <div className="logo-box flex">
                   <div className="logo">
-                    <Link to={`/`}>
-                    <h1 className="text-white ps-3">LOGO</h1>
+                  <Link to={`/`}>
+                      <img
+                        className="lazyload img-none"
+                        data-src="/assets/images/logo/logo2.png"
+                        alt=""
+                        width={225}
+                        height={40}
+                        src="/assets/images/logo/logo2.png"
+                      />
+                      <img
+                        className="lazyload img-is-fixed"
+                        data-src="/assets/images/logo/logo@2x.png"
+                        alt=""
+                        width={225}
+                        height={40}
+                        src="/assets/images/logo/logo@2x.png"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -100,6 +116,9 @@ export default function Header1() {
                       <span>Dashboard</span>
                     </Link>
                   </div>
+                  <div>
+                  <LanguageDropdown />
+                  </div>
                 </div>
                 <div
                   className="mobile-nav-toggler mobile-button"
@@ -128,13 +147,17 @@ export default function Header1() {
           onClick={() => document.body.classList.remove("mobile-menu-visible")}
         />
         <nav className="menu-box">
-          {/* Logo Box */}
-          <div className="logo-box flex">
-            <div className="logo">
-              <Link to={`/`}>
-                <h1 className="text-dark ps-3">LOGO</h1>
-              </Link>
-            </div>
+        <div className="nav-logo">
+            <Link to={`/`}>
+              <img
+                className="lazyload"
+                data-src="/assets/images/logo/logo@2x.png"
+                alt=""
+                width={197}
+                height={48}
+                src="/assets/images/logo/logo@2x.png"
+              />
+            </Link>
           </div>
 
           <div className="bottom-canvas">

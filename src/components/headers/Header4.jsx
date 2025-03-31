@@ -14,8 +14,13 @@ export default function Header4() {
                 {/* Logo Box */}
                 <div className="logo-box flex">
                   <div className="logo">
-                    <Link to={`/`}>
-                      <h1 className="text-dark">LOGO</h1>
+                  <Link to={`/`}>
+                      <img
+                        alt=""
+                        width={225}
+                        height={40}
+                        src="/assets/images/logo/logo.png"
+                      />
                     </Link>
                   </div>
                 </div>

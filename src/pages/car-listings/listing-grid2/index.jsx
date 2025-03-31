@@ -25,7 +25,7 @@ export default function ListingGridPage2() {
                   <Link className="home fw-6 text-color-3" to={`/`}>
                     Home
                   </Link>
-                  <span>Used cars for sale</span>
+                  <span>Listing Car</span>
                 </div>
               </div>
             </div>

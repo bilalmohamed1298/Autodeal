@@ -383,8 +383,15 @@ export default function Footer1() {
           <div className="row">
             <div className="col-lg-4 col-md-12">
               <div className="logo-footer style box-1">
-                <Link to={`/`}>
-                <h1 className="text-white ps-3">LOGO</h1>
+              <Link to={`/`}>
+                  <img
+                    className="lazyload"
+                    data-src="/assets/images/logo/logo-footer@2x.png"
+                    alt="img"
+                    width={225}
+                    height={40}
+                    src="/assets/images/logo/logo-footer@2x.png"
+                  />
                 </Link>
               </div>
             </div>

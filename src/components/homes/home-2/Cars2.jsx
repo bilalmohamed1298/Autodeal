@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { carData2 } from "@/data/cars";
-const carTypes = ["All", "Sale", "Installments"];
+import { carData } from "@/data/cars";
+const carTypes = ["All", "Export"];
 export default function Cars() {
   const [selectedType, setSelectedType] = useState(carTypes[0]);
-  const [filtered, setFiltered] = useState(carData2);
+  const [filtered, setFiltered] = useState(carData);
   useEffect(() => {
     if (selectedType == "All") {
-      setFiltered(carData2);
+      setFiltered(carData);
     } else {
-      setFiltered([...carData2].filter((el) => el.type == selectedType));
+      setFiltered([...carData].filter((el) => el.type == selectedType));
     }
   }, [selectedType]);
   return (
@@ -24,7 +24,7 @@ export default function Cars() {
                 data-wow-delay="0.2s"
                 data-wow-duration="1000ms"
               >
-                Buses
+                Buses and trucks
               </h2>
               <Link
                 to={`/listing-car`}

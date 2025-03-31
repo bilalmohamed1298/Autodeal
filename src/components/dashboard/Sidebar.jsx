@@ -36,8 +36,14 @@ export default function Sidebar() {
       <div className="dashboard-overlay" />
       <aside className="sidebar-dashboard">
         <div className="db-content db-logo pad-30">
-          <Link to={`/`} title="autodecar">
-            <h1 className="text-white">LOGO</h1>
+        <Link to={`/`} title="autodecar">
+            <img
+              className="site-logo"
+              alt="autodecar"
+              src="/assets/images/dashboard/logo.png"
+              width={432}
+              height={76}
+            />
           </Link>
         </div>
         <div className="db-content db-author pad-30">
