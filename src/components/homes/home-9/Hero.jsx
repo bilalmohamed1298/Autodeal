@@ -1,7 +1,28 @@
 import FlatFilter2 from "@/components/common/FlatFilter2";
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./Hero.css";
 
 export default function Hero() {
+  const [licensePlate, setLicensePlate] = useState("");
+  const navigate = useNavigate();
+
+  const handleLicensePlateChange = (e) => {
+    setLicensePlate(e.target.value);
+  };
+
+  const handleCheck = () => {
+    if (licensePlate) {
+      navigate(`/sell-car?licensePlate=${licensePlate}`);
+    }
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleCheck();
+    }
+  };
+
   return (
     <div className="mainslider slider home9">
       <div className="container relative">
@@ -24,25 +45,22 @@ export default function Hero() {
                   Find what are you looking for
                 </h1>
 
-                <a
-                  href="https://www.youtube.com/watch?v=YuzClM_OAO0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn text-white d-flex align-items-center justify-content-center gap-2 px-3 py-2 rounded-3 shadow-sm mx-auto mt-5"
-                  style={{ backgroundColor: "#ff7017", width: "200px" }}
-                >
-                  {/* SVG Icon - White Play Button */}
-                  <svg
-                    width="30"
-                    height="30"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                  <span>Watch Video</span>
-                </a>
+                <div className="license-plate-container mx-auto mt-5">
+                  <div className="license-plate">
+                    <div className="country-flag">NL</div>
+                    <input
+                      type="text"
+                      className="plate-input"
+                      placeholder="Enter License Plate"
+                      value={licensePlate}
+                      onChange={handleLicensePlateChange}
+                      onKeyPress={handleKeyPress}
+                    />
+                  </div>
+                  <button className="check-button" onClick={handleCheck}>
+                    CHECK
+                  </button>
+                </div>
               </div>
 
               {/* filter */}

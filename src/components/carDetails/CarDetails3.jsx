@@ -4,7 +4,7 @@ import Slider3 from "./sliders/Slider3";
 import Description from "./detailComponents/Description";
 import CarReview from "./detailComponents/CarReview";
 import Features from "./detailComponents/Features";
-import LoanCalculator from "./detailComponents/LoanCalculator";
+import LoanCalculator from "../homes/home-1/LoanCalculator";
 import Overview from "./detailComponents/Overview";
 import ProfileInfo from "./detailComponents/ProfileInfo";
 import Recommended from "./detailComponents/Recommended";
@@ -196,14 +196,8 @@ export default function CarDetails3({ carItem = allCars[0] }) {
                         className="listing-calculator loan-calculator-form pd-0"
                         id="scrollspyHeading4"
                       >
-                        <div className="box-title">
-                          <h2 className="title-ct">Auto Loan Calculator</h2>
-                          <p>
-                            Use our calculator to estimate your monthly car
-                            payments.
-                          </p>
-                        </div>
-                        <LoanCalculator />
+                        <div className="box-title"></div>
+                        <LoanCalculator leaseBedrag={carItem.price}/>
                       </div>
                       <div className="listing-line" />
                       <div className="listing-location" id="scrollspyHeading3">

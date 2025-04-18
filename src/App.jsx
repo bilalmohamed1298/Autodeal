@@ -5,6 +5,7 @@ import "swiper/css/grid";
 import "photoswipe/style.css";
 import { useEffect } from "react";
 import BackToTop from "@/components/common/BacktoTop";
+import MaintenanceBooking from "./pages/MaintenanceBooking";
 
 import Login from "@/components/modals/Login";
 import SignUp from "@/components/modals/SignUp";
@@ -51,6 +52,8 @@ import MyFavoritePage from "./pages/dashboard/my-favorite";
 import ChangePassPage from "./pages/dashboard/change-password";
 import ContactPage from "./pages/other-pages/contact";
 import AddListingPage from "./pages/dashboard/add-listing";
+import MaintenanceBookingPage from "./pages/MaintenanceBooking";
+import SellCarPage from "./pages/sell-car/index";
 function App() {
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -166,7 +169,10 @@ function App() {
               <Route path="blog" element={<BlogPage />} />
               <Route path="blog-grid" element={<BlogGridPage />} />
               <Route path="blog-detail/:id" element={<BlogDetailsPage />} />
-
+              <Route
+                path="maintenance-booking"
+                element={<MaintenanceBookingPage />}
+              />
               <Route path="dashboard" element={<DashboardPage />} />
               <Route path="my-listing" element={<MyListingPage />} />
               <Route path="my-favorite" element={<MyFavoritePage />} />
@@ -176,6 +182,8 @@ function App() {
               <Route path="change-password" element={<ChangePassPage />} />
               <Route path="add-listing" element={<AddListingPage />} />
               <Route path="contact" element={<ContactPage />} />
+              {/* sell car page */}
+              <Route path="sell-car" element={<SellCarPage />} />
             </Route>
           </Routes>
         </div>

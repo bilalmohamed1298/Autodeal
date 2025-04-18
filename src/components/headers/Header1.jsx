@@ -16,7 +16,7 @@ export default function Header1() {
                 {/* Logo Box */}
                 <div className="logo-box flex">
                   <div className="logo">
-                  <Link to={`/`}>
+                    <Link to={`/`}>
                       <img
                         className="lazyload img-none"
                         data-src="/assets/images/logo/logo2.png"
@@ -80,7 +80,7 @@ export default function Header1() {
                     </ul>
                   </div>
                   <div className="flat-bt-top">
-                    <Link className="sc-button" to={`/dashboard`}>
+                    <Link className="sc-button" to={`/sell-car`}>
                       <svg
                         width={21}
                         height={20}
@@ -113,11 +113,11 @@ export default function Header1() {
                           </clipPath>
                         </defs>
                       </svg>
-                      <span>Dashboard</span>
+                      <span>Sell Car</span>
                     </Link>
                   </div>
                   <div>
-                  <LanguageDropdown />
+                    <LanguageDropdown />
                   </div>
                 </div>
                 <div
@@ -147,7 +147,7 @@ export default function Header1() {
           onClick={() => document.body.classList.remove("mobile-menu-visible")}
         />
         <nav className="menu-box">
-        <div className="nav-logo">
+          <div className="nav-logo">
             <Link to={`/`}>
               <img
                 className="lazyload"

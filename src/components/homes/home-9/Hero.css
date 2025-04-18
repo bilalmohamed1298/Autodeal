@@ -1,0 +1,73 @@
+.license-plate-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.license-plate {
+  display: flex;
+  align-items: stretch;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffca28;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  height: 52px;
+  min-width: 320px;
+}
+
+.country-flag {
+  background: #1a237e;
+  color: white;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+}
+
+.plate-input {
+  border-radius: 0%;
+  background-color: #ffd037;
+  color: #000;
+  border: 0px solid #ddd;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.75rem;
+  width: 100%;
+  height: 52px;
+  font-family: Arial, sans-serif;
+  transition: all 0.2s ease;
+}
+
+.plate-input::placeholder {
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.check-button {
+  background: #1a237e;
+  color: white;
+  border: none;
+  padding: 0 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 52px;
+  transition: all 0.2s ease;
+  font-family: Arial, sans-serif;
+}
+
+.check-button:hover {
+  background: #283593;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+} 
